@@ -23,6 +23,9 @@
     text-transform: uppercase;
     margin: 10px;
     box-shadow: rgb(198, 92, 11) 4px 4px 4px;
+    display: block;
+        margin-left: auto;
+        margin-right: auto;
   }
 
   #grid-container {
@@ -55,5 +58,7 @@
 
     #review {
         line-height: 0.25;
+        display: flexbox; 
+       text-align: center;
     }
-       
+ 
