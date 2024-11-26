@@ -8,6 +8,7 @@
 </head>
 <body class="body">
     <!-- Header section that states what the title is and the navigation to a particular day of onboarding -->
+     
     <header>
         <section class="header">
             <h1>Employee OnBoarding Checklist</h1>
@@ -25,9 +26,16 @@
         </div>
     </header>
 <!-- Checklist section that lists the tasks for the day for 5 days-->
-    <section class="container">
+ <table id="container">
         <div class="checklist">
-            <h2 id="New-Hire">New Hire Paperwork</h2>
+            <thead>
+<tr>
+    <th id = "New-Hire">New Hire Paperwork</th>
+    <th id = "Set-up">Technology Set-Up</th>
+</tr>
+
+            </thead>
+            
                 <ul>
                     <li>
                         <input type="checkbox" id="new-Hire-item1">
@@ -244,6 +252,7 @@
                     </li>
                 </ul>
         </div>
+    </table>
     </section>
  
         <script src="./assets/js/scripts.js"></script>
