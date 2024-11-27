@@ -62,7 +62,7 @@
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
     grid-gap: 136px;
     padding: 0px;
-    box-shadow: rgb(198, 92, 11) 4px 4px 4px;
+    /* box-shadow: rgb(198, 92, 11) 4px 4px 4px; */
     list-style-type: none;
     font-size: 30px;
     text-size-adjust: 100%;
