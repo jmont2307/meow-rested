@@ -10,6 +10,7 @@
     container-type: flex;
     display: flexbox;
     align-items: center;
+    width: 100%;
   }
 
   #button {
@@ -36,7 +37,7 @@
     font-weight: bold;
     text-transform: uppercase;
     text-align: center;
-    margin: 100px auto;
+    margin: 10px auto;
     box-shadow: rgb(198, 92, 11) 4px 4px 4px;
     display: flex table-cell;
     list-style-type: none;
@@ -44,9 +45,6 @@
   }
 
   .container {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
-    grid-gap: 10px;
     padding: 10px;
   }
 

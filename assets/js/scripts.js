@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     });
 });
 document.addEventListener('DOMContentLoaded', (event) => {
-    const form = document.querySelector('#grid-container form');
+    const form = document.querySelector('#grid-container');
     const modal = document.createElement('div');
     modal.style.display = 'none';
     modal.style.position = 'fixed';
@@ -59,5 +59,20 @@ document.addEventListener('DOMContentLoaded', (event) => {
     form.addEventListener('submit', (event) => {
         event.preventDefault();
         modal.style.display = 'block';
+    });
+});
+
+    const inputs = document.querySelectorAll('#grid-container input[type="text"]');
+    
+    inputs.forEach(input => {
+        input.addEventListener('change', function() {
+        console.log(input.value);
+        const savedValue = localStorage.getItem(input.value.trim());
+        if (savedValue) {
+            input.value = savedValue;
+        }
+        else {
+            localStorage.setItem(input.parentElement.textContent, input.value);
+        }
     });
 });
