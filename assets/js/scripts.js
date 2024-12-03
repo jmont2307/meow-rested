@@ -76,3 +76,30 @@ document.addEventListener('DOMContentLoaded', (event) => {
         }
     });
 });
+
+// function to check if all the fields are filled out
+function formValidate(event){
+    
+    event.preventDefault()
+    const name = document.getElementById('employee-name').value
+    const empID = document.getElementById('employee-id').value
+    const empPosition = document.getElementById('employee-position').value
+    const startDate = document.getElementById('start-date').value
+
+    let errorMessage = document.getElementById('error-message');
+    if (!errorMessage) {
+        errorMessage = document.createElement('p');
+        errorMessage.id = 'error-message';
+        errorMessage.style.color = 'red';
+        document.getElementById('onboarding-form').appendChild(errorMessage);
+    }
+
+    if (!name || !empID || !empPosition || !startDate) {
+        errorMessage.textContent = 'Please fill out all the fields';
+        return false;
+    } else {
+        errorMessage.textContent = '';
+    }
+    document.getElementById('onboarding-form').submit();
+    window.location.href = 'checklist.html';
+}
