@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
     <title>Employee Onboarding Tracker</title>
 </head>
 <body class="body">
@@ -16,11 +16,11 @@
         <section id="h2">
             <h2>Welcome to the team! We are excited to work with you!</h2>
         </section>
-            <div id="grid-container">
-                <p>Employee Name: <input type="text"></p>
-                <p>Employee ID: <input type="text"></p>
-                <p>Position: <input type="text"></p>
-                <p>Start Date: <input type="text"></p>
+            <div id="grid-container"><form id="onboarding-form">
+                <p>Employee Name: <input type="text" id="employee-name"></p>
+                <p>Employee ID: <input type="text" id="employee-id"></p>
+                <p>Position: <input type="text" id="employee-position"></p>
+                <p>Start Date: <input type="date" id="start-date"></p></form>
             </div>
         </section>
         <section>
@@ -31,12 +31,12 @@
         </section>
         <section>
             <nav>
-                <button id="button">
-                    <p><a href="checklist.html">Start!</a></p>
+                <button id="button" onclick="formValidate(event)">
+                    <p>Start!</a></p>
                 </button>
             </nav>
         </section>
     </div>
-    <script src="assets/js/script.js"></script>
+    <script src="./assets/js/scripts.js"></script>
 </body>
 </html>
