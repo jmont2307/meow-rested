@@ -50,7 +50,7 @@
     padding: 10px;
   }
 
-  #grid-container {
+  #grid-container, #onboarding-form {
     display: grid;
     column-count: 4;
     grid-template-columns: 1fr 1fr 1fr 1fr;
