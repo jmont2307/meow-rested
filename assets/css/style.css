@@ -94,7 +94,7 @@
     font-size: 35px;
     text-shadow: rgb(198, 92, 11) 4px 4px 4px;
     border: 1px solid black;
-    padding-left: 30%;
+    padding-left: 38%;
     }
 
     #user ul {
@@ -104,11 +104,9 @@
       flex-direction: row;
       justify-content: flex-end;
       gap: 15px;
-      /* margin: 10px; */
       margin-left: 50%;
       align-items: center;
       text-shadow: none;
-      /* border: 1px solid black; */
     }
 
     h2 {
