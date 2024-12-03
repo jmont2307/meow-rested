@@ -87,21 +87,23 @@
     padding: 15px 6% 0px 0;
     display: flex;
     flex-direction: row;
-    container-type: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     box-shadow: 0 5px 35px rgba(62, 107, 109, 0.4);
     font-style: auto;
     font-size: 35px;
     text-shadow: rgb(198, 92, 11) 4px 4px 4px;
     border: 1px solid black;
+    padding-left: 30%;
     }
 
-    #user {
-      /* display: flex;
-      flex-wrap: wrap;
-      flex-direction: row; */
-      justify-content: space-between;
-      align-items: flex-end;
+    #user ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      padding-top: 50px;
+      /* padding-left: 50%; */
     }
 
     h2 {
@@ -152,4 +154,13 @@
       caption-side: bottom;
       border-collapse: collapse;
     }
+
+    #container {
+        padding-top: 25px;
+        text-align: center;
+        
+    }
+      
+    
+
     
