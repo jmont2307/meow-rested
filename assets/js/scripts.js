@@ -103,3 +103,31 @@ function formValidate(event){
     document.getElementById('onboarding-form').submit();
     window.location.href = 'checklist.html';
 }
+
+// function to show data for employees from local storage
+
+
+// document.getElementById('onboarding-form').addEventListener('submit', function(event) {
+//     event.preventDefault();
+
+//    const showData = {
+//     name : 'employee-name',
+//     empID :'employee-id',
+//     empPosition :'employee-position',
+//     startDate :'start-date',
+//     };
+ 
+//     const jsonString = JSON.stringify(inputs);
+// console.log(jsonString);
+
+// fetch('file:///C:/Bootcamp/Projects/Project%201/meow-rested/index.html', {
+//     method: 'POST',
+//     headers: {
+//         'Content-Type': 'application/json'
+//     },
+//     body: jsonString
+// })
+// .then(response) => response.json())
+// .then(data => console.log(data));
+// });
+
