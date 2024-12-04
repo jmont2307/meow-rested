@@ -164,7 +164,7 @@
         
     }
      
-    @media (min-width: 768px) {
+    /* @media (min-width: 768px) {
       header,
       .container,
       .grid-container {
@@ -180,4 +180,4 @@
       display: block;
       width: 100%;
       height: auto;
-    }
+    } */
