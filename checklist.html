@@ -11,8 +11,16 @@
     <!-- Header section that states what the title is and the navigation to a particular day of onboarding -->
     <header>
         <section class="header">
-            <h1>Employee OnBoarding Checklist</h1>
-        
+            <h1>Employee OnBoarding Checklist</h1>      
+                <form id="user">
+                  <ul>
+                    <li>Employee Name:</li>
+                    <li>Employee ID:</li>
+                    <li>Position:</li>
+                    <li>Start Date:</li>
+                  </ul>
+                </form>
+
         </section>
         <div>
             <nav>
@@ -56,7 +64,7 @@
                         <label for="new-Hire-item6">Accept HR Policies</label>
                     </li>
                 </ul>
-            <h2 id="Set-up">Technology Set-Up</h2>
+            <h2 id="Technology">Technology Set-Up</h2>
                 <ul>
                     <li>
                         <input type="checkbox" id="set-up1">
@@ -78,30 +86,30 @@
             <h2 id="day1">Safety Walkthrough/OSHA</h2>
                 <ul>
                     <li>
-                        <input type="checkbox" id="item1">
+                        <input type="checkbox" id="osha-item1">
                         <label for="item1">Locate Emergency Exits</label>
                     </li>
                     <li>
-                        <input type="checkbox" id="item2">
+                        <input type="checkbox" id="osha-item2">
                         <label for="item2">Locate Fire Extinguishers</label>
                     </li>
                     <li>
-                        <input type="checkbox" id="item3">
+                        <input type="checkbox" id="osha-item3">
                         <label for="item3">Locate Eye Wash Stations</label>
                     </li>
                 </ul>
             <h2 id="day4">Training</h2>
             <ul>
                     <li>
-                        <input type="checkbox" id="item1">
+                        <input type="checkbox" id="training-item1">
                         <label for="item1">Observation</label>
                     </li>
                     <li>
-                        <input type="checkbox" id="item2">
+                        <input type="checkbox" id="training-item2">
                         <label for="item2">Meet the staff</label>
                     </li>
                     <li>
-                        <input type="checkbox" id="item3">
+                        <input type="checkbox" id="training-item3">
                         <label for="item3">Review Policies with Manager</label>
                     </li>
                 </ul>
@@ -111,6 +119,7 @@
                 <button type="submitButton">Submit</button>
             </form>
         </div>
+
         
         <!-- <script src="./assets/js/welcomeModal.js"></script> -->
         <script src="./assets/js/submitModal.js"></script>

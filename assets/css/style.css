@@ -50,7 +50,7 @@
     padding: 10px;
   }
 
-  #grid-container {
+  #grid-container, #onboarding-form {
     display: grid;
     column-count: 4;
     grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -87,13 +87,26 @@
     padding: 15px 6% 0px 0;
     display: flex;
     flex-direction: row;
-    container-type: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     box-shadow: 0 5px 35px rgba(62, 107, 109, 0.4);
     font-style: auto;
     font-size: 35px;
     text-shadow: rgb(198, 92, 11) 4px 4px 4px;
     border: 1px solid black;
+    padding-left: 38%;
+    }
+
+    #user ul {
+      height: fit-content;
+      font-size: 30px;
+      display: flex;
+      flex-direction: row;
+      justify-content: flex-end;
+      gap: 15px;
+      margin-left: 50%;
+      align-items: center;
+      text-shadow: none;
     }
 
     h2 {
