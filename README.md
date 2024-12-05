@@ -2,10 +2,18 @@
 Project 1
 
 ## Description
-In order for employees to feel comfortable while maintaining an excellent level of prodution this onboarding employee tracker was created. This tracker is designed to help employees keep track of tasks they need to complete to help facilitate their transition. 
+This onboarding employee tracker was created in order for employees to feel comfortable while maintaining an excellent level of production. This tracker is designed to help employees keep track of tasks they need to complete to help facilitate their transition. 
 
 ## Usage
-When the new employee opens up the webpage, they will be asked to fill out with their employee information. Once the information has been filled they may press the "Start" button. The "Start" button will redirect them to the onboarding employee checklist. The new employee will need to review and complete each task. Once teh tasks have been completed, they may check the checkbox. This will cross off the tasks, showing that they have been completed. Once the tasks have been completed, they may click the "Submit" button for this application to be submitted for approval. 
+When the new employee opens up the webpage, they will be asked to fill out with their employee information. Once the information has been filled they may press the "Start" button. 
+![alt text](./assets/images/Form%20Submission.png)
+
+The "Start" button will redirect them to the onboarding employee checklist. The new employee will need to review and complete each task. Once teh tasks have been completed, they may check the checkbox. This will cross off the tasks, showing that they have been completed. Once the tasks have been completed, they may click the "Submit" button for this application to be submitted for approval. 
+![alt text](./assets/images/Employee%20Checklist.png)
+
+Link to website:
+https://jmont2307.github.io/meow-rested/
+
 
 ## Credits
 Melina - https://github.com/melinanev
